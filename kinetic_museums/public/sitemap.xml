@@ -32,12 +32,21 @@
   </url>
   
   <url>
+    <loc>http://example.org/cdo/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/mission/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/cdo/main/</loc>
   </url>
   
   <url>

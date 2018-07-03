@@ -3,17 +3,38 @@ languageCode = "en-us"
 title = "Kinetic Museums"
 theme = "hugo-icon"
 
+# Main menu
+[[menu.main]]
+  name = "CDO"
+  url = "cdo"
+  weight = -200
+[[menu.main]]
+  name = "Methodology"
+  url = "mission"
+  weight = -180
+[[menu.main]]
+  name = "About Me"
+  url = "team"
+  weight = -160
+[[menu.main]]
+    name = "Contact"
+    url = "contact"
+    weight = -140
+
 
 # Metadata
 [params]
   author = "Your name"
   description = "Cool description"
 
+
+
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/auckland-museum.jpg"
   title = "Kinetic Museums Consulting"
   description = "Museum strategy within reach"
+
 
 # Navigation section
 [params.nav]
