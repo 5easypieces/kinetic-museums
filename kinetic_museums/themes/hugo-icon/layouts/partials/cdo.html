@@ -1,8 +1,8 @@
-<div id="fh5co-cdo" data-section="cdo" class="js-fullheight-home">
-<div class="mdl-grid">
-    <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--8-col">
-        <div class="mdl-cell--8-col">
+<div id="fh5co-cdo" data-section="cdo"  class="js-fullheight-home">
+  <div class="mdl-grid">
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--middle" style="min-height: 400px;">
+
 
           {{ range (where .Site.RegularPages "Section" "cdo") }}
             <h2>{{ .Params.title }}</h2>
@@ -10,7 +10,7 @@
             {{ .Content }}
 
           {{ end }}
-        </div>
+
 
     </div>
 
