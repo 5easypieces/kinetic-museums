@@ -9,12 +9,12 @@ theme = "hugo-icon"
   url = "cdo"
   weight = -200
 [[menu.main]]
-  name = "Methodology"
-  url = "mission"
+  name = "About"
+  url = "team"
   weight = -180
 [[menu.main]]
-  name = "About Me"
-  url = "team"
+  name = "Methodology"
+  url = "mission"
   weight = -160
 [[menu.main]]
     name = "Contact"
@@ -33,7 +33,7 @@ theme = "hugo-icon"
 [params.hero]
   img = "images/auckland-museum.jpg"
   title = "Kinetic Museums Consulting"
-  description = "Museum strategy within reach"
+  description = "Digital strategy within reach"
 
 
 # Navigation section

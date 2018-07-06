@@ -22,8 +22,17 @@
 	{{ partial "mission.html" . }}
 
 
-	{{ partial "contact-form.html" .}}
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" .}}
+	{{ end }}
 
+	{{ if .Site.Params.work.enable }}
+	{{ partial "gallery.html" .}}
+	{{ end }}
+
+	{{ if .Site.Params.contact.enable }}
+	{{ partial "contact-form.html" .}}
+	{{ end }}
 
 	{{ if .Site.Params.footer.enable }}
 	{{ partial "footer.html" .}}
