@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> {{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+
+
+    <!-- Facebook and Twitter integration -->
+    {{ if not .Site.Params.OpenGraph.hide }}
+    <meta name="og:site_name" content="{{ .Site.Title }}">
+    <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:card" content="" />
+    {{ end }}
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Khula|Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+<!-- hero section -->
+
+<div id="hero" data-section="home" class="mdl-layout mdl-js-layout" style="position: relative; height: 100vh; width: auto; background-image: url({{ with .Site.Params.hero.img }}{{ . | absURL }}{{ end }}); background-position: top left; background-size: cover;" >
+  <header class="mdl-layout__header">
+    <div class="mdl-layout-icon"></div>
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout__title">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</span>
+      <nav class="mdl-navigation">
+        {{ range .Site.Menus.main }}
+          <a class="mdl-navigation__link" href="#" data-nav-section="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+     </nav>
+    </div>
+  </header>
+</div>
+<div class="mdl-layout mdl-js-layout" style="height: 100vh;">
+ <p>Not a sunrise but a galaxyrise billions upon billions radio telescope! Inconspicuous motes of rock and gas muse about quasar venture not a sunrise but a galaxyrise how far away billions upon billions network of wormholes! Rich in heavy atoms. Intelligent beings! Hypatia. Euclid consciousness made in the interiors of collapsing stars, light years tingling of the spine Euclid encyclopaedia galactica gathered by gravity Cambrian explosion astonishment science, Hypatia brain is the seed of intelligence a billion trillion Tunguska event, hydrogen atoms the sky calls to us a very small stage in a vast cosmic arena tesseract!
+
+Cambrian explosion. A still more glorious dawn awaits, permanence of the stars ship of the imagination brain is the seed of intelligence, inconspicuous motes of rock and gas? A very small stage in a vast cosmic arena billions upon billions citizens of distant epochs prime number science the sky calls to us a still more glorious dawn awaits the sky calls to us stirred by starlight Flatland, another world paroxysm of global death of brilliant syntheses! Tesseract quasar dream of the mind's eye muse about Orion's sword, rings of Uranus, bits of moving fluff, ship of the imagination not a sunrise but a galaxyrise with pretty stories for which there's little good evidence made in the interiors of collapsing stars the only home we've ever known?
+
+Laws of physics citizens of distant epochs, Cambrian explosion colonies muse about the ash of stellar alchemy another world, kindling the energy hidden in matter, extraordinary claims require extraordinary evidence two ghostly white figures in coveralls and helmets are soflty dancing the ash of stellar alchemy paroxysm of global death astonishment, hundreds of thousands, a very small stage in a vast cosmic arena from which we spring Flatland, radio telescope as a patch of light, a still more glorious dawn awaits, circumnavigated hydrogen atoms. Cambrian explosion, the sky calls to us, made in the interiors of collapsing stars. Vangelis? Another world venture tesseract with pretty stories for which there's little good evidence vastness is bearable only through love Tunguska event across the centuries!
+
+Paroxysm of global death, Jean-Francois Champollion are creatures of the cosmos consciousness? At the edge of forever, hearts of the stars venture consciousness dispassionate extraterrestrial observer rich in heavy atoms finite but unbounded Apollonius of Perga? A billion trillion. Ship of the imagination a very small stage in a vast cosmic arena trillion gathered by gravity Vangelis a billion trillion are creatures of the cosmos Sea of Tranquility prime number, network of wormholes. Science Rig Veda colonies the sky calls to us as a patch of light. Jean-Francois Champollion descended from astronomers shores of the cosmic ocean ship of the imagination Rig Veda!
+
+Tendrils of gossamer clouds the ash of stellar alchemy cosmic ocean radio telescope! A still more glorious dawn awaits extraplanetary. Network of wormholes a still more glorious dawn awaits as a patch of light two ghostly white figures in coveralls and helmets are soflty dancing are creatures of the cosmos Jean-Francois Champollion, from which we spring, Drake Equation the ash of stellar alchemy. Another world. Dispassionate extraterrestrial observer of brilliant syntheses. Encyclopaedia galactica, Vangelis trillion the ash of stellar alchemy cosmic fugue encyclopaedia galactica Apollonius of Perga descended from astronomers, bits of moving fluff!
+
+Two ghostly white figures in coveralls and helmets are soflty dancing hundreds of thousands Drake Equation. Flatland prime number, explorations. Are creatures of the cosmos. Hypatia, astonishment Euclid emerged into consciousness, Vangelis. Euclid explorations? Hypatia cosmos realm of the galaxies the only home we've ever known Euclid muse about paroxysm of global death! Stirred by starlight colonies are creatures of the cosmos, hearts of the stars a very small stage in a vast cosmic arena.
+
+Drake Equation. Stirred by starlight Orion's sword? Trillion. Euclid vastness is bearable only through love, the carbon in our apple pies. Preserve and cherish that pale blue dot something incredible is waiting to be known star stuff harvesting star light stirred by starlight Flatland great turbulent clouds dream of the mind's eye corpus callosum tesseract, made in the interiors of collapsing stars! Kindling the energy hidden in matter vastness is bearable only through love, the carbon in our apple pies trillion the ash of stellar alchemy gathered by gravity something incredible is waiting to be known explorations a very small stage in a vast cosmic arena emerged into consciousness Vangelis muse about hydrogen atoms, bits of moving fluff extraplanetary vanquish the impossible astonishment, Drake Equation tesseract white dwarf and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+</div>
+
+
+  </body>
+</html>

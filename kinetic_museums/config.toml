@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Kinetic Museums"
-theme = "hugo-icon"
+theme = "km-theme"
 
 # Main menu
 [[menu.main]]
