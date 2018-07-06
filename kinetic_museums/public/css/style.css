@@ -377,6 +377,19 @@ p {
   background: #B4B8AB;
   width: 100%;
 }
+
+#fh5co-cdo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  background: #E3E4DB;
+  width: 100%;
+}
 #fh5co-about .fh5co-2col {
   width: 50%;
 }

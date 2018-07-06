@@ -18,6 +18,7 @@
 
 	{{ partial "nav.html" . }}
   {{ partial "cdo.html" . }}
+  {{ partial "team.html" . }}
 	{{ if .Site.Params.mission.enable }}
 	{{ partial "mission.html" . }}
 	{{ end }}
@@ -28,10 +29,6 @@
 
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.team.enable }}
-	{{ partial "team.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.contact.enable }}
